@@ -1,0 +1,15 @@
+{
+  "name": "exit-liquidity-arena",
+  "version": "0.6.0",
+  "private": true,
+  "description": "出货之前 · 控盘对决：一人对战三名电脑的中文股票博弈游戏",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "start": "python3 -m http.server 8080 --directory dist",
+    "test": "node engine.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
